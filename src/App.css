@@ -1,0 +1,73 @@
+.app-wrapper {
+    margin: auto;
+    margin-top: 30vh;
+    width: 400px;
+    display: block;
+    padding: 10px 50px 50px;
+}
+
+input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: inline-block;
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #757575;
+}
+
+input:focus {
+    outline: none;
+}
+
+.duplicate-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.duplicate {
+    background: #eeeeee;
+    padding: 5px 10px;
+    margin: 10px 20px 0px 0px;
+    text-align: center;
+}
+
+.dup {
+    font-weight: 600;
+}
+
+.warning {
+    color: #fc9272;
+    font-style: italic;
+    font-size: 12px;
+    margin: 0px;
+}
+
+button {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 7px;
+    margin-left: 20px;
+    font-size: 14px;
+    background: #eeeeee;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    transition: all.3s ease;
+    -webkit-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #fc9272;
+}
+
+@media screen and (max-width: 600px) {
+    .app-wrapper {
+        width: 350px;
+        padding: 0px;
+    }
+    input {
+        width: 200px;
+    }
+}
